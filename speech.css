@@ -1,0 +1,102 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+html{
+    height: 100%;
+    width: 100%;
+}
+.body{
+    height: auto;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: top;
+    align-items: center;
+    gap: 100px;
+    background-color: rgb(69, 66, 66);
+    background: url('element5-digital-OyCl7Y4y0Bk-unsplash.jpg');
+    background-repeat:repeat;
+    background-size: cover;
+}
+.div{
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    user-select: none;
+}
+.div a img{
+    height: 50px;
+    width: 50px;
+}
+.heading{
+    font-size: 70px;
+    font-family: "Sedgwick Ave Display", cursive;
+    font-weight: 600;
+    position: relative;
+    top: 50px;
+    color: rgb(0, 0, 0);
+    height: 200px;
+    width: 500px;
+    text-align: center;
+
+}
+.container{
+    font-size: 25px;
+    font-family: 'Times New Roman', Times, serif;
+    min-height: 50px;
+    width: 500px;
+    background-color: rgb(58, 52, 52);
+    border-radius: 10px;
+    color: azure;
+    padding: 10px;
+}
+
+@media screen and (max-width: 640px)  {
+    .heading{
+        font-size: 50px;
+        font-family: "Sedgwick Ave Display", cursive;
+        font-weight: 400;
+    }
+    .div a img{
+        height: 40px;
+        width: 40px;
+    }
+}
+@media screen and (max-width: 500px)  {
+    .heading{
+        font-size: 40px;
+        font-family: "Sedgwick Ave Display", cursive;
+        font-weight: 300;
+    }
+    .div a img{
+        height: 40px;
+        width: 40px;
+    }
+    .container{
+        font-size: 20px;
+        font-family: 'Times New Roman', Times, serif;
+        min-height: 50px;
+        width: 400px;
+    }
+}
+
+@media screen and (max-width: 400px)  {
+    .heading{
+        font-size: 30px;
+        font-family: "Sedgwick Ave Display", cursive;
+        font-weight: 800;
+    }
+    .div a img{
+        height: 30px;
+        width: 30px;
+    }
+    .container{
+        font-size: 20px;
+        font-family: 'Times New Roman', Times, serif;
+        min-height: 50px;
+        width: 300px;
+    }
+}
